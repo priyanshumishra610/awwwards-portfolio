@@ -1,78 +1,78 @@
 // index.js
 export const servicesData = [
   {
-    title: "FullStack Development",
+    title: "Smart Contract Development",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "Building secure, efficient, and auditable smart contracts on Ethereum using Solidity. I develop custom contracts with proper security practices, gas optimization, and adherence to ERC standards.",
     items: [
       {
-        title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
+        title: "Solidity Development",
+        description: "(ERC-20, ERC-721, Custom Contracts)",
       },
       {
-        title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        title: "Security Best Practices",
+        description: "(Secure Coding, Vulnerability Prevention)",
       },
       {
-        title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
+        title: "Testing & Deployment",
+        description: "(Remix IDE, Testnets, Gas Optimization)",
       },
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "Web3 Integration",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "Building decentralized applications (DApps) that seamlessly integrate with blockchain networks. I connect frontend applications with smart contracts using Web3 libraries and MetaMask integration.",
     items: [
       {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
+        title: "DApp Development",
+        description: "(Web3.js, MetaMask, Wallet Integration)",
       },
       {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
+        title: "Blockchain Architecture",
+        description: "(Transaction Lifecycle, Consensus Mechanisms)",
       },
       {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
+        title: "Smart Contract Interaction",
+        description: "(Reading/Writing to Contracts, Event Handling)",
       },
     ],
   },
   {
-    title: "Security & Optimization",
+    title: "Blockchain Fundamentals",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "Deep understanding of blockchain technology including cryptographic hashing, transaction validation, and network architecture. Applying these fundamentals to build robust decentralized solutions.",
     items: [
       {
-        title: "Code Audits",
-        description: "(Refactoring, Tech Debt Cleanup)",
+        title: "Cryptography & Hashing",
+        description: "(Hash Functions, Digital Signatures)",
       },
       {
-        title: "Pen Testing",
-        description: "(Vulnerability Assessments)",
+        title: "Transaction Management",
+        description: "(Gas Optimization, Transaction Lifecycle)",
       },
       {
-        title: "SEO Tech Stack",
-        description: "(SSR, Metadata, Structured Data)",
+        title: "Network Architecture",
+        description: "(Ethereum Basics, Testnet Deployment)",
       },
     ],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "Blockchain Security & Research",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "Passionate about smart contract security and blockchain research. Continuously learning and applying best practices to ensure secure, reliable, and efficient blockchain solutions.",
     items: [
       {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
+        title: "Security Auditing",
+        description: "(Code Review, Vulnerability Assessment)",
       },
       {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
+        title: "DeFi & NFTs",
+        description: "(Decentralized Finance, Non-Fungible Tokens)",
       },
       {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
+        title: "Blockchain Research",
+        description: "(Emerging Technologies, AI + Blockchain)",
       },
     ],
   },
@@ -80,93 +80,38 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "Basic Smart Contract for User Data",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
+      "Developed a smart contract to store and update user data like name and age. Deployed and tested in Remix, understanding transactions, gas fees, and blockchain storage.",
     href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
-    bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
+      { id: 1, name: "Solidity" },
+      { id: 2, name: "Ethereum" },
+      { id: 3, name: "Remix IDE" },
     ],
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "MyCoin – Simple ERC-20 Token",
     description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
+      "Created an ERC-20 token 'MyCoin' with transfer and balance tracking. Tested deployment and wallet transfers on Ethereum testnet using MetaMask.",
     href: "",
-    image: "/assets/projects/plant-shop.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
-      { id: 4, name: "Tailwind CSS" },
+      { id: 1, name: "ERC-20" },
+      { id: 2, name: "Smart Contracts" },
+      { id: 3, name: "MetaMask" },
     ],
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "Password Strength Checker",
     description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
+      "Built a Python program to analyze password strength using rules like length, numbers, uppercase, lowercase, and symbols. Helps understand cybersecurity fundamentals.",
     href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
-    bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
-    ],
-  },
-  {
-    id: 4,
-    name: "Electronics & Gadgets Store",
-    description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
-    href: "",
-    image: "/assets/projects/electronics-store.jpg",
-    bgImage: "/assets/backgrounds/poster.jpg",
-    frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
-    ],
-  },
-  {
-    id: 5,
-    name: "Home Decor Marketplace",
-    description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
-    href: "",
-    image: "/assets/projects/home-decor-store.jpg",
-    bgImage: "/assets/backgrounds/table.jpg",
-    frameworks: [
-      { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
-    ],
-  },
-  {
-    id: 6,
-    name: "Digital Game Store",
-    description:
-      "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
-    href: "",
-    image: "/assets/projects/game-store.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
-    frameworks: [
-      { id: 1, name: "Svelte" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
+      { id: 1, name: "Python" },
+      { id: 2, name: "Cybersecurity" },
+      { id: 3, name: "Logic Building" },
     ],
   },
 ];
@@ -177,5 +122,5 @@ export const socials = [
     href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
   },
   { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "GitHub", href: "https://github.com/aditisingh-223" },
 ];

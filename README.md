@@ -1,21 +1,11 @@
-# 🌐 3D Awwwards-Level Developer Portfolio
+# 🌐 Aditi Singh — Blockchain Developer Portfolio
 
 ### Built with React, GSAP, Three.js, TailwindCSS
 
-This is a fully animated, interactive, 3D developer portfolio designed to **impress clients, recruiters, and hiring managers**. It's more than a portfolio—it's a web experience built with production-level code, scroll-based animations, and real-world best practices.
+This is a fully animated, interactive, 3D developer portfolio designed to showcase blockchain development skills and projects. It's more than a portfolio—it's a web experience built with production-level code, scroll-based animations, and real-world best practices.
 
 > ⚡ Inspired by Awwwards-level sites — built with React (Vite), TailwindCSS, GSAP, React Three Fiber, and Drei.
 
-<br/>
-<div>
-  <img src="https://github.com/user-attachments/assets/4eaf9399-fd02-4a90-83f7-2b5a361bc032" alt="Hero" style="border-radius: 8px;"/>
-  <div style="display: flex; justify-content: space-between; margin: 20px 0;">
-    <img src="https://github.com/user-attachments/assets/155bf742-b24f-4119-89f4-87e6d88c8f53" alt="Works" style="width: 32%; border-radius: 8px;"/>
-    <img src="https://github.com/user-attachments/assets/f22b9749-85ed-434f-a5f6-df1f8e221103" alt="ContactSummary" style="width: 32%; border-radius: 8px;"/>
-    <img src="https://github.com/user-attachments/assets/3e473322-b96a-433b-aec5-ece9bab25795" alt="Contact" style="width: 32%; border-radius: 8px;"/>
-  </div>
-</div>
-<br/>
 
 > 📺 [Watch Full YouTube Walkthrough](https://youtu.be/i0229UsdBwc)
 ---
@@ -47,7 +37,7 @@ This is a fully animated, interactive, 3D developer portfolio designed to **impr
 ## 📦 Setup & Installation
 
 ```bash
-git clone https://github.com/Ali-Sanati/awwwards-portfolio.git
+git clone https://github.com/aditisingh-223/awwwards-portfolio.git
 cd awwwards-portfolio
 npm install
 npm run dev
@@ -75,22 +65,12 @@ Assets used in the project can be found [here](https://github.com/user-attachmen
 
 ---
 
-## 📣 Like the project?
+## 📣 Contact
 
-If this helped you build or inspire your own site:
+Connect with me:
 
-- ⭐ Star this repo
+- 💼 [GitHub](https://github.com/aditisingh-223)
 
-- 📺 [Watch the full walkthrough on YouTube](https://youtu.be/i0229UsdBwc)
+- 📧 Email: aditisingh7411@gmail.com
 
-- 📬 [Connect on LinkedIn](https://www.linkedin.com/in/ali-sanati)
-
-- 📷 [Follow me on Instagram](https://www.instagram.com/ali.sanatidev/reels/)
-
----
-
-## 🤝 Let’s Build Together
-
-Drop a comment on the video or open an issue with your idea!
-
-> 📩 Like, subscribe, and let me know what kind of project you want to build together!
+- 📱 Phone: 8102817906
